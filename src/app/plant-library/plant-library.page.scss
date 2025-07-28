@@ -9,3 +9,20 @@ ion-thumbnail img {
   height: 60px;
   border-radius: 8px;
 }
+.custom-header {
+  position: sticky;
+  top: 0; /* stick at the top */
+  z-index: 10;
+  background: var(--ion-color-success, #10dc60);
+  color: var(--ion-color-light, #fff);
+  --ion-toolbar-background: var(--ion-color-success, #10dc60);
+  --ion-toolbar-color: var(--ion-color-light, #fff);
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  margin-bottom: 16px;
+  padding: 0 16px;
+}
+
+
+ion-content {
+  padding-top: 56px; 
+}

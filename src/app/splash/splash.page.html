@@ -1,11 +1,14 @@
-<ion-header>
-  <ion-toolbar>
-    <ion-title>My Plants</ion-title>
-  </ion-toolbar>
-</ion-header>
+
 
 <ion-content class="ion-padding">
 
+  <div style="height: 20px;"></div>
+
+  <div class="custom-header">
+    <ion-toolbar>
+      <ion-title>My Plants</ion-title>
+    </ion-toolbar>
+  </div>
   <!-- List of plants -->
   <ion-list>
     <ion-item *ngFor="let plant of plants" (click)="showPlantLocation(plant)">
