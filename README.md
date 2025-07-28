@@ -1,3 +1,5 @@
+
+
 My Scenario
 PlantPal lets users take pictures of their plants using the camera and save them with the plant’s name. When you add a plant, the app also grabs your current location. You can see all your added plants in My Plants, and tapping a plant shows its location on a small map.
 
@@ -15,6 +17,5 @@ What Plugins Are Used and How Are They Relevant?
   Leaflet JS: To display the location on a map in the My Plants section.
 
 
-GitHub Link
-Here’s the code:
+GitHub Link:
 https://github.com/Saad982/PlantPal
