@@ -1,0 +1,26 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>My Plants</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="ion-padding">
+
+  <!-- List of plants -->
+  <ion-list>
+    <ion-item *ngFor="let plant of plants" (click)="showPlantLocation(plant)">
+      <ion-thumbnail slot="start" *ngIf="plant.photo">
+        <img [src]="plant.photo" />
+      </ion-thumbnail>
+      <ion-label>
+        <h2>{{ plant.name }}</h2>
+        <p *ngIf="plant.location">Lat: {{ plant.location.lat }}, Lng: {{ plant.location.lng }}</p>
+        <p *ngIf="!plant.location">Location not available</p>
+      </ion-label>
+    </ion-item>
+  </ion-list>
+
+  <!-- Map Display -->
+  <div id="map" style="height: 300px; margin-top: 20px;"></div>
+
+</ion-content>

@@ -12,6 +12,15 @@ $RECYCLE.BIN/
 *.log
 log.txt
 
+node_modules/
+platforms/
+plugins/
+www/
+android/app/build/
+ios/build/
+.idea/
+.DS_Store
+.env
 
 /.sourcemaps
 /.versions

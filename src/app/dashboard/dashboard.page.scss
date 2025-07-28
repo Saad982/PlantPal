@@ -1,0 +1,68 @@
+
+
+.dashboard-item {
+  text-align: center;
+  padding: 20px;
+}
+
+.dashboard-item ion-icon {
+  color: #3880ff;
+  margin-bottom: 8px;
+}
+
+.dashboard-item ion-label {
+  display: block;
+  font-weight: bold;
+}
+
+ion-grid {
+  flex-grow: 1;
+  padding-top: 20px;
+}
+
+ion-row {
+  margin-bottom: 20px;
+}
+
+/* Remove this: */
+/* ion-header {
+  padding-top: env(safe-area-inset-top);
+} */
+
+ion-toolbar {
+  padding-top: env(safe-area-inset-top);
+  min-height: calc(56px + env(safe-area-inset-top)); // Typical toolbar height
+}
+
+.custom-header {
+  padding-top: env(safe-area-inset-top);
+  padding-bottom: 16px;
+  font-size: 28px;
+  font-weight: bold;
+  color: var(--ion-color-primary);
+  text-align: center;
+  border-bottom: 1px solid #ccc;
+  background-color: var(--ion-background-color);
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+.custom-fake-header {
+  padding-top: env(safe-area-inset-top);
+  padding-bottom: 12px;
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  background-color: var(--ion-background-color);
+  color: var(--ion-color-primary);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+.dashboard-heading {
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+  color: var(--ion-color-primary);
+  padding-top: 40px; // Static large top padding
+  padding-bottom: 16px;
+}

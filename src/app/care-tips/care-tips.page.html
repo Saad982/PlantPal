@@ -1,0 +1,21 @@
+<ion-header>
+  <ion-toolbar color="success">
+    <ion-title>Care Tips</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="ion-padding">
+  <div class="tips-wrapper">
+    <ion-card button *ngFor="let tip of careTips" (click)="openTip(tip)">
+      <ion-card-header>
+        <ion-card-title>
+          <ion-icon [name]="tip.icon" class="tip-icon"></ion-icon>
+          {{ tip.title }}
+        </ion-card-title>
+      </ion-card-header>
+      <ion-card-content>
+        {{ tip.description }}
+      </ion-card-content>
+    </ion-card>
+  </div>
+</ion-content>

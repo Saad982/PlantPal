@@ -1,0 +1,47 @@
+<!-- <ion-header>
+  <ion-toolbar>
+    <ion-title>PlantPal Dashboard</ion-title>
+  </ion-toolbar>
+</ion-header> -->
+
+<ion-content class="ion-padding">
+  
+  <ion-grid>
+     <!-- Heading Row -->
+    <ion-row>
+      <ion-col size="12" class="dashboard-heading">
+        PlantPal Dashboard
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col size="6" class="dashboard-item" (click)="goToHome()">
+        <ion-icon name="add-circle" size="large"></ion-icon>
+        <ion-label>Add Plant</ion-label>
+      </ion-col>
+      <ion-col size="6" class="dashboard-item" (click)="goToAddedPlant()">
+        <ion-icon name="leaf" size="large"></ion-icon>
+        <ion-label>My Plants</ion-label>
+      </ion-col>
+    </ion-row>
+    <ion-row>
+    <ion-col size="6" class="dashboard-item" (click)="goToWateringSchedule()">
+        <ion-icon name="water" size="large"></ion-icon>
+        <ion-label>Watering Schedule</ion-label>
+      </ion-col>
+      <ion-col size="6" class="dashboard-item" (click)="goToCareTips()">
+        <ion-icon name="book" size="large"></ion-icon>
+        <ion-label>Care Tips</ion-label>
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col size="6" class="dashboard-item" (click)="goToPlantLibrary()">
+        <ion-icon name="settings" size="large"></ion-icon>
+        <ion-label>Plant Library</ion-label>
+      </ion-col>
+      <ion-col size="6" class="dashboard-item" (click)="goToAbout()">
+        <ion-icon name="help-circle" size="large"></ion-icon>
+        <ion-label>About</ion-label>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+</ion-content>

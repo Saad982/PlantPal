@@ -1,0 +1,50 @@
+[
+  {
+    "name": "Aloe Vera",
+    "scientific": "Aloe barbadensis",
+    "image": "plants/aloe-vera.jpg",
+    "description": "Low-maintenance succulent. Air-purifying and mildly medicinal."
+  },
+  {
+    "name": "Snake Plant",
+    "scientific": "Sansevieria trifasciata",
+    "image": "plants/snake-plant.png",
+    "description": "Resilient in low light. Efficient at removing toxins."
+  },
+  {
+    "name": "Peace Lily",
+    "scientific": "Spathiphyllum",
+    "image": "plants/lily.png",
+    "description": "Elegant white blooms. Improves humidity and air quality."
+  },
+  {
+    "name": "Spider Plant",
+    "scientific": "Chlorophytum comosum",
+    "image": "plants/spider.png",
+    "description": "Easy to grow. Great for hanging baskets."
+  },
+   {
+    "name": "Aloe Vera",
+    "scientific": "Aloe barbadensis",
+    "image": "plants/aloe-vera.jpg",
+    "description": "Low-maintenance succulent. Air-purifying and mildly medicinal."
+  },
+  {
+    "name": "Snake Plant",
+    "scientific": "Sansevieria trifasciata",
+    "image": "plants/snake-plant.png",
+    "description": "Resilient in low light. Efficient at removing toxins."
+  },
+  {
+    "name": "Peace Lily",
+    "scientific": "Spathiphyllum",
+    "image": "plants/lily.png",
+    "description": "Elegant white blooms. Improves humidity and air quality."
+  },
+  {
+    "name": "Spider Plant",
+    "scientific": "Chlorophytum comosum",
+    "image": "plants/spider.png",
+    "description": "Easy to grow. Great for hanging baskets."
+  }
+]

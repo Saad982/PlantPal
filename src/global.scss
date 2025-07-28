@@ -35,3 +35,19 @@
 /* @import "@ionic/angular/css/palettes/dark.always.css"; */
 /* @import "@ionic/angular/css/palettes/dark.class.css"; */
 @import "@ionic/angular/css/palettes/dark.system.css";
+
+@import "~leaflet/dist/leaflet.css";
+
+.app-safe-area {
+  /* Remove padding-top */
+  padding-left: env(safe-area-inset-left);
+  padding-right: env(safe-area-inset-right);
+  padding-bottom: env(safe-area-inset-bottom);
+  height: 100vh;
+  box-sizing: border-box;
+}
+html, body, ion-app, ion-router-outlet, .app-safe-area {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
