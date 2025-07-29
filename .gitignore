@@ -11,7 +11,10 @@ $RECYCLE.BIN/
 
 *.log
 log.txt
-
+www/
+android/
+ios/
+angular/
 node_modules/
 platforms/
 plugins/
